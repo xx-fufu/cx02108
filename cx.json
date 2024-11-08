@@ -1,0 +1,620 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-09-20T09:49:19.210",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-09-20T09:49:31.304",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Movie object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-09-23T14:36:59.992",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Movie object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-09-23T14:37:50.737",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Movie object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-09-23T14:39:27.888",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Movie object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-09-23T14:39:47.837",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Movie object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u7535\\u5f71\\u7b80\\u4ecb\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-09-23T14:40:06.437",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Movie object (3)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u7535\\u5f71\\u7b80\\u4ecb\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-09-23T14:42:20.757",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Movie object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-09-25T15:49:32.109",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Book object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-09-27T09:55:34.483",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Book object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add 电影",
+    "content_type": 7,
+    "codename": "add_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change 电影",
+    "content_type": 7,
+    "codename": "change_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete 电影",
+    "content_type": 7,
+    "codename": "delete_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view 电影",
+    "content_type": 7,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add 读书",
+    "content_type": 8,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change 读书",
+    "content_type": 8,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete 读书",
+    "content_type": 8,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view 读书",
+    "content_type": 8,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$6Z0bHPXTFlCCZ6TX8DIRHS$WBZHti+Y7YKWnmO+lZEs+pC4JbO6JWAOCdzXY9NYqeU=",
+    "last_login": "2024-09-29T08:27:33.285",
+    "is_superuser": true,
+    "username": "cx",
+    "first_name": "",
+    "last_name": "",
+    "email": "cx@cx.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-09-14T15:52:45.404",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "movie",
+    "model": "movie"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "book",
+    "model": "book"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5lemrl0a8fx4k5rwmr601gfjiqo3buqb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1spNao:O3UlvrU-cULDdYxTKcpTnDhf--QRAnsrARhkVdYmjss",
+    "expire_date": "2024-09-28T15:53:18.744"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8l608qf9hx6qsseunitywmdzeume7pn8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1suhmf:c7bYj3dlEQsb9flR9G56KaokE3_BZVGtXqftkN49Yj8",
+    "expire_date": "2024-10-13T08:27:33.285"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ch3q31ycj4dnczmva86gawdkie0sbo02",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1stMfs:VOTBuKpNRtDsbHO-7DiY_rKdeVy8MBc3LzFlqdbChw8",
+    "expire_date": "2024-10-09T15:43:00.724"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lhaeh527tfzf15zb5nh7mw4ifp4jubne",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1stzfz:R-VixUVo2U4d2y-y2qCcICJKwIlgFzqU8lljO-kZmX4",
+    "expire_date": "2024-10-11T09:21:43.826"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ltt9923oivmifbz3890st062wi6sv6jf",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1srRlN:mloDZiEjH48kr90jwp5mtRdhX3f8vqsJOfmkWdbyvPM",
+    "expire_date": "2024-10-04T08:44:45.591"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vo4mtccuwi97f2mqx6uhjgm9uo9uxyd1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDMlEJx6d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL996FGMYEJitAeBkOU8jIRprSRx6AGGeWFhk8M57hxElZ4c5eUgDqPcH6FM4QA:1ssccP:wDVJ9FKzU49f8Vu0RgB0dMjian9FoiLS__CmOtUm7Ko",
+    "expire_date": "2024-10-07T14:32:21.802"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 1,
+  "fields": {
+    "title": "因果报应 Maharaja",
+    "description": "在一个宁静的社区里，受人尊敬的中年理发师马哈拉吉与女儿乔蒂和拉克希米住在一起。当马哈拉吉向警方报案称有蒙面入侵者袭击了他并抢劫了拉克希米时，当局却拒绝了这一说法，并怀疑她所失财物的真实性。尽管他多次试图寻求帮助，但他还是不惜一切代价，甚至在女儿回来之前亲自调查。随着疑点越来越多，马哈拉吉的理智受到质疑，谜团也越来越深……",
+    "image": "movie/images/1.webp",
+    "url": "https://movie.douban.com/subject/36934908/?tag=%E7%83%AD%E9%97%A8&from=gaia"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 2,
+  "fields": {
+    "title": "出走的决心 (2024)",
+    "description": "影片根据50岁阿姨自驾游真人故事改编。天真浪漫的李红（咏梅 饰）一生有过许多梦想，18岁时憧憬大学，25岁时憧憬爱情，45岁时憧憬远游……但为了那些“对别人来说更重要”的事，她只能一等再等，也一再错过。50岁，她决心不再等待，活出不一样的人生！",
+    "image": "movie/images/1_w3dUzYI.webp",
+    "url": "https://movie.douban.com/subject/36587974/?from=showing"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 3,
+  "fields": {
+    "title": "野孩子 (2024)",
+    "description": "影片取材自“流浪兄弟”真实事件，聚焦“社会困境儿童”群体。讲述了⼀段“小偷”哥哥和“孤⼉”弟弟的流浪路，⼀场温暖的守护与救赎。独自流浪生活的男孩马亮（王俊凯 饰）机缘巧合下遇见了被家人遗忘、无人关照的孩子轩轩（关子勰 饰），相似的命运让两个孤独的少年渐行渐近，风雨中他们一起建立了一个小小的家，拥抱取暖彼此守护。然而一场意外打破了一切，一群不速之客闯入了他们的生活，马亮和轩轩的命运又将何去何从……",
+    "image": "movie/images/2.webp",
+    "url": "https://movie.douban.com/subject/36399203/?from=showing"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 4,
+  "fields": {
+    "title": "异形：夺命舰 Alien: Romulus (2024)",
+    "description": "影片时间线设定在1979年第一部《异形》与1986年的续集《异形2》之间，围绕一群年轻而勇敢的太空殖民者展开。讲述他们为逃离外星采矿殖民地的沉闷生活，在冒险探索一座废弃的太空站时，意外遭遇了宇宙中最可怕的生命体——异形。狭窄幽暗、危机四伏的空间站中，大逃杀的序幕已经被无情拉开，人类再次成为异形生物捕猎的目标。在无尽的黑暗与死亡威胁的笼罩之下，太空探险队员们能否在每一次心跳的瞬间，察觉到未知生物潜伏的丝丝寒意？在这场你死我活的追逐战中，他们将直面怎样的信任挑战和道德挣扎？当一个又一个同伴",
+    "image": "movie/images/3.webp",
+    "url": "https://movie.douban.com/subject/35792500/?from=showing"
+  }
+},
+{
+  "model": "movie.movie",
+  "pk": 5,
+  "fields": {
+    "title": "姥姥的外孙 หลานม่า (2024)",
+    "description": "出身泰国华人家庭的无业年轻人阿安（马群耀 饰）看到堂妹因照顾病重的爷爷而继承房产后，也对身患绝症的姥姥（乌萨·萨梅坎姆 饰）动了心思，计划复刻堂妹的“致富之路”获取百万遗产。但面对同样“努力”的舅舅们和挑剔毒舌的姥姥，阿安这条争当全职孝孙的“啃姥致富”之路似乎没有他预想的那么顺利……",
+    "image": "movie/images/4.webp",
+    "url": "https://movie.douban.com/subject/36328210/?tag=%E7%83%AD%E9%97%A8&from=gaia"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 1,
+  "fields": {
+    "title": "科普研究",
+    "description": "《科普研究》（双月刊）是由中国科学技术协会主管、中国科普研究所主办的专业学术期刊。本刊以“促进科普理论研究，推动科普事业发展”为宗旨，设有“科普能力”“科学素质”“科学教育”“科学与社会”“实践探索”等栏目，主要刊载科普及相关领域的理论与实践研究成果，力推学术精品力作，持续致力于促进科普学术繁荣和科普高质量发展。现为中文核心期刊、中国科技核心期刊、RCCSE 中国核心学术期刊。",
+    "image": "book/images/55.jpg",
+    "url": "https://kpyj.ijournals.cn/ch/index.aspx"
+  }
+},
+{
+  "model": "book.book",
+  "pk": 2,
+  "fields": {
+    "title": "贵州地质",
+    "description": "《贵州地质》创刊于1984年，2020年入列我国高质量科技期刊T2级（国际知名期刊）期刊目录，为国内外公开发行的地球科学类科技期刊（季刊）。系《中国学术期刊综合评价数据库》（CAJCED)统计源期刊，被《中国核心期刊（遴选）数据库、《中国期刊全文数据库》（CJFD)、《中国科技期刊数据库》、《中国期刊网》及《中国学术期刊（光盘版）》等收录及检索。由贵州省地质矿产勘查开发局主管，贵州省地质学会主办，贵州省地质调查院协办。\r\n\r\n\r\n 创刊以来，《贵州地质》坚持“百花齐放、百家争鸣”，推进学术交流，促进地质科研和勘查，促进人才培养，服务国家和地方经济社会发展的办刊宗旨，着重反映地质勘查及地学研究新进展、新成果，介绍地学前缘动态，报道地学界重大事件。 \r\n\r\n《贵州地质》秉承服务国家能源矿产资源保障、服务生态文明建设和服务防灾减灾的目标，并及时刊载地球科学与大生态、大数据融合发展、服务自然资源管理中心工作的最新成果，如旅游资源大普查和耕地质量地球化学调查评价成果等，为优秀年轻地学人才的成长搭建了平台。",
+    "image": "book/images/9.jpg",
+    "url": "http://gzdz.cnjournals.org/ch/first_menu.aspx?parent_id=20140626013952001"
+  }
+}
+]
